@@ -33,7 +33,7 @@ body {
 /********** section-header **********/
 
 .section-header {
-  padding-top: 120px;
+  padding-top: 60px;
   padding-bottom: 80px;
 }
 
@@ -168,7 +168,7 @@ body {
   display: block;
   height: 1px;
   width: 200px;
-  background-color: rgba(13, 13, 13, 0.4);
+  background-color: rgba(13, 13, 13, 0.2);
 
   margin-top: 7px;
 }
@@ -220,11 +220,11 @@ body {
 }
 
 .section-two .space-one {
-  margin-bottom: 54px;
+  margin-bottom: 40px;
 }
 
 .section-two .space-two {
-  margin-bottom: 54px;
+  margin-bottom: 40px;
 }
 
 /********** section-three **********/
@@ -383,7 +383,7 @@ body {
   border-radius: 80px;
   border: 1px solid var(--title-text-color);
 
-  max-width: 234px;
+  max-width: 269px;
 }
 
 .list-punks {
@@ -416,6 +416,7 @@ body {
 .included {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-top: 60px;
 }
 
@@ -432,7 +433,6 @@ body {
   border-radius: 40px;
   border: 1px solid #fff;
 
-  margin-right: 8px;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -444,7 +444,7 @@ body {
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.4px;
-
+  margin-left: 8px;
   margin-right: 8px;
 }
 
@@ -481,6 +481,9 @@ body {
   font-weight: 600;
   line-height: 130%; /* 26px */
   text-transform: uppercase;
+
+  margin-top: 0;
+  margin-bottom: 56px;
 }
 
 .tariff-list {
@@ -572,6 +575,7 @@ body {
   background: var(--black-text-color);
 
   color: #fff;
+  text-align: center;
   font-family: Unbounded;
   font-size: 16px;
   font-style: normal;
@@ -595,6 +599,9 @@ body {
   font-weight: 600;
   line-height: normal;
   letter-spacing: -0.8px;
+
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 .tariff-list .alt {
@@ -650,6 +657,7 @@ body {
   background: var(--white-text-color);
 
   color: var(--black-text-color);
+  text-align: center;
   font-family: Unbounded;
   font-size: 16px;
   font-style: normal;
@@ -662,6 +670,28 @@ body {
 
   margin-left: auto;
   margin-right: auto;
+}
+
+.cross-out {
+  color: rgba(13, 13, 13, 0.4);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.32px;
+  text-decoration: line-through;
+}
+
+.cross-out-two {
+  color: rgba(255, 255, 255, 0.4);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.32px;
+  text-decoration: line-through;
 }
 
 /********** section-six **********/
