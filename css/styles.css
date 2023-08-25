@@ -76,6 +76,26 @@ body {
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+
+  body {
+    background-image: url(../images/background/full-background-desktop-1440-1x.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .body {
+      background-image: url(../images/background/full-background-desktop-1440-2x.jpg);
+    }
+  }
+}
+
 /********** section-header **********/
 
 .section-header {
@@ -259,6 +279,18 @@ body {
   .scroll-text {
     font-size: 20px;
     letter-spacing: -0.4px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .section-header .container {
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+
+  .main-title {
+    font-size: 280px;
+    letter-spacing: -8.4px;
   }
 }
 
