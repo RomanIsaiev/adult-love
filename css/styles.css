@@ -962,7 +962,7 @@ body {
 .buy-link {
   display: block;
   max-width: 296px;
-  padding: 16px 88px;
+  padding: 16px 60px;
   border-radius: 60px;
   background: var(--black-text-color);
 
