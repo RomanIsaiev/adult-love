@@ -56,6 +56,26 @@ body {
   }
 }
 
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  body {
+    background-image: url(../images/background/full-background-desktop-1280-1x.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .body {
+      background-image: url(../images/background/full-background-desktop-1280-2x.jpg);
+    }
+  }
+}
+
 /********** section-header **********/
 
 .section-header {
@@ -185,6 +205,63 @@ body {
   }
 }
 
+@media screen and (min-width: 1280px) {
+  .section-header {
+    padding-bottom: 260px;
+  }
+
+  .main-title {
+    font-size: 240px;
+    letter-spacing: -7.2px;
+  }
+
+  .header-pre-title {
+    font-size: 90px;
+    letter-spacing: -1px;
+  }
+
+  .header-text-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+  }
+
+  .header-main-text {
+    font-size: 20px;
+    text-align: right;
+    margin-bottom: 80px;
+    max-width: 478px;
+  }
+
+  .section-header .wrapper {
+    padding: 0 0;
+    border-radius: 0;
+    margin-bottom: 42px;
+    background: none;
+  }
+
+  .section-header .header-second-text {
+    text-align: start;
+    color: var(--white-text-color);
+    font-size: 20px;
+    width: 620px;
+  }
+
+  .header-scroll-down {
+    justify-content: end;
+  }
+
+  .scroll-arrow-svg {
+    width: 30px;
+    height: 19px;
+  }
+
+  .scroll-text {
+    font-size: 20px;
+    letter-spacing: -0.4px;
+  }
+}
+
 /********** section-one **********/
 
 .section-one {
@@ -283,6 +360,36 @@ body {
   }
 }
 
+@media screen and (min-width: 1280px) {
+  .section-one {
+    padding-bottom: 200px;
+  }
+
+  .section-one .wrapper {
+    padding: 60px 60px;
+  }
+
+  .section-one .wrapper-title {
+    font-size: 40px;
+    margin-bottom: 57px;
+  }
+
+  .section-one .one-list-item {
+    width: 549px;
+    font-size: 22px;
+    margin-bottom: 11px;
+  }
+
+  .section-one-image {
+    width: 399px;
+    height: 431px;
+  }
+
+  .stroke::after {
+    margin-top: 11px;
+  }
+}
+
 /********** section-two **********/
 
 .section-two {
@@ -342,6 +449,22 @@ body {
 
   .section-two .section-two-text {
     max-width: 474px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section-two {
+    padding-bottom: 200px;
+  }
+
+  .section-two-title {
+    font-size: 40px;
+    margin-bottom: 60px;
+  }
+
+  .section-two .section-two-text {
+    max-width: 796px;
+    font-size: 24px;
   }
 }
 
@@ -456,6 +579,50 @@ body {
     justify-content: center;
     align-items: center;
     gap: 36px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section-three {
+    padding-bottom: 200px;
+  }
+
+  .section-three-title {
+    font-size: 40px;
+    margin-bottom: 80px;
+  }
+
+  .wrapper-flex {
+    gap: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-three .wrapper {
+    max-width: 480px;
+    height: 860px;
+    padding: 40px 40px 48px 40px;
+    border-radius: 30px;
+    margin-right: unset;
+    margin-left: unset;
+  }
+
+  .expert-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .expert-text {
+    text-align: center;
+    font-size: 18px;
+    width: 400px;
+  }
+
+  .expert-text-two {
+    text-align: center;
+    font-size: 18px;
+    width: 400px;
   }
 }
 
@@ -637,6 +804,49 @@ body {
 
   .text-longest-course {
     max-width: 286px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section-four {
+    padding-bottom: 200px;
+  }
+
+  .section-four-title {
+    font-size: 40px;
+    width: 530px;
+  }
+
+  .course-list {
+    gap: 40px;
+    margin-bottom: 60px;
+  }
+
+  .course-list-item {
+    max-width: 560px;
+    padding: 40px;
+    height: 580px;
+  }
+
+  .module-title {
+    font-size: 28px;
+    margin-left: unset;
+    margin-right: unset;
+    max-width: 370px;
+    padding: 16px 5px;
+  }
+
+  .list-punks-item {
+    font-size: 20px;
+  }
+
+  .included-text {
+    font-size: 20px;
+  }
+
+  .text-longest-course {
+    font-size: 28px;
+    max-width: 500px;
   }
 }
 
@@ -971,6 +1181,89 @@ body {
   }
 }
 
+@media screen and (min-width: 1280px) {
+  .section-five {
+    padding-bottom: 200px;
+  }
+
+  .section-five-title {
+    font-size: 40px;
+    max-width: 644px;
+
+    margin-bottom: 80px;
+  }
+
+  .tariff-list {
+    gap: 40px;
+  }
+
+  .tariff-item {
+    max-width: 360px;
+    border-radius: 30px;
+    padding: 40px 32px;
+  }
+
+  .tariff-name {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .tariff-name-alt {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .section-five .stroke::after {
+    margin-top: 16px;
+  }
+
+  .desc-item {
+    margin-bottom: 16px;
+    font-size: 18px;
+  }
+
+  .desc-item-alt {
+    margin-bottom: 16px;
+    font-size: 18px;
+  }
+
+  .section-five .stroke-two::after {
+    margin-top: 16px;
+  }
+
+  .section-five .stroke-two::after {
+    margin-top: 16px;
+  }
+
+  .buy-link {
+    font-size: 16px;
+    max-width: 296px;
+    padding: 16px 40px;
+  }
+
+  .buy-link-alt {
+    font-size: 16px;
+    max-width: 296px;
+    padding: 16px 40px;
+  }
+
+  .tariff-cost {
+    font-size: 28px;
+  }
+
+  .tariff-cost-alt {
+    font-size: 28px;
+  }
+
+  .desc-item:last-child {
+    margin-bottom: 40px;
+  }
+
+  .desc-item-alt:last-child {
+    margin-bottom: 40px;
+  }
+}
+
 /********** section-six **********/
 
 .section-six {
@@ -999,6 +1292,12 @@ body {
   .section-six-title {
     font-size: 24px;
     margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section-six-title {
+    font-size: 40px;
   }
 }
 
@@ -1051,6 +1350,17 @@ body {
     font-size: 40px;
     letter-spacing: -0.8px;
   }
+
+  @media screen and (min-width: 1280px) {
+    .countdown-number {
+      width: 160px;
+    }
+
+    .countdown-time {
+      font-size: 64px;
+      letter-spacing: -1.28px;
+    }
+  }
 }
 
 /********** section-footer **********/
@@ -1095,5 +1405,15 @@ body {
 @media screen and (min-width: 768px) {
   .footer-link {
     font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section-footer {
+    padding-bottom: 60px;
+  }
+
+  .footer-link {
+    font-size: 24px;
   }
 }
