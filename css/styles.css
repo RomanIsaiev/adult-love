@@ -880,6 +880,12 @@ body {
     font-size: 28px;
     max-width: 500px;
   }
+
+  .included {
+    bottom: 40px;
+    left: 40px;
+    transform: translate(0, 0);
+  }
 }
 
 /********** section-five **********/
